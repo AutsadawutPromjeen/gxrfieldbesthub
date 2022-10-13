@@ -1075,7 +1075,7 @@ function CheckQuestBoss()
 					CFrameQ = CFrame.new(894.488647, 5.14000702, 4392.43359, 0.819155693, -0, -0.573571265, 0, 1, -0, 0.573571265, 0, 0.819155693)
 					CFrameMon = CFrame.new(1617.07886, 1.5542295, 4295.54932, -0.997540116, -2.26287735e-08, -0.070099175, -1.69377223e-08, 1, -8.17798806e-08, 0.070099175, -8.03913949e-08, -0.997540116)
 					TelePBoss(CFrameQ)
-					SelectMonster = "Desert Bandit [Lv. 60]"
+					SelectMonster = "Desert Officer [Lv. 70]"
 				elseif SelectMonster == "Snow Bandit [Lv. 90]" then -- Snow Bandits
 					Ms = "Snow Bandit [Lv. 90]"
 					NameQuest = "SnowQuest"
@@ -3967,7 +3967,7 @@ General_Tab:Dropdown("FastAttack","Fast",MIo,function(vu)
 	_G.Setting_table.FastAttack_Mode = vu
 	Update_Setting(getgenv()['MyName'])
 	if _G.Setting_table.FastAttack_Mode == "Fast" then
-		_G.Fast_Delay = 0.1
+		_G.Fast_Delay = 0.05
 	elseif _G.Setting_table.FastAttack_Mode == "Smooth" then
 		_G.Fast_Delay = 0.3
 	elseif _G.Setting_table.FastAttack_Mode == "Super Fast" then
