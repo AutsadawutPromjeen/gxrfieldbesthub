@@ -1,5 +1,5 @@
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/naypramx/Ui__Project/Script/XeNonUi", true))()
-library:CreateWatermark("AGT HUB") -- Config แตกนะเดียวค่อยแก้รอเน็ตมาก่อน By MeowX#0001
+library:CreateWatermark("AGT HUB")
 local CenterHubNo1 = library:CreateWindow("LEGACY HUB | I GHOUL X",Enum.KeyCode.RightControl)
 local Tab = CenterHubNo1:CreateTab("General")
 local Sector1 = Tab:CreateSector("Main","left")
