@@ -98,6 +98,3 @@ local Tw = TweenService:Create(game.Players.LocalPlayer.Character.HumanoidRootPa
 {CFrame = CFrame.new(587.736145, 108.597672, 866.943359, -0.999291778, -2.69973333e-09, -0.0376297235, -2.38150233e-09, 1, -8.50172643e-09, 0.0376297235, -8.40608916e-09, -0.999291778)}):Play()
 wait(5)
 end)
-then do
-    "Auto Farm ",function()
-end
